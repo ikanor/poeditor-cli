@@ -1,4 +1,4 @@
-package com.github.nemotec.poeditor.command;
+package com.nemotec.poeditor.cli;
 
 import be.lukin.poeditor.FileTypeEnum;
 import be.lukin.poeditor.POEditorClient;
@@ -20,8 +20,8 @@ public class Commands {
         List<File> bundles = new ArrayList<>();
 
         Files.walk(path)
-                .filter((Path p) -> p.getFileName().toString().matches(pattern))
-                .forEach((Path p) -> bundles.add(new File(p.toString())));
+        .filter((Path p) -> p.getFileName().toString().matches(pattern))
+        .forEach((Path p) -> bundles.add(new File(p.toString())));
         return bundles;
     }
 

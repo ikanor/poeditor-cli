@@ -1,4 +1,4 @@
-package com.github.nemotec.poeditor.command;
+package com.nemotec.poeditor.cli;
 
 import java.io.File;
 import java.io.FileInputStream;

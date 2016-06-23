@@ -1,4 +1,4 @@
-package com.github.nemotec.poeditor.command;
+package com.nemotec.poeditor.cli;
 
 import be.lukin.poeditor.models.Language;
 import java.io.IOException;
